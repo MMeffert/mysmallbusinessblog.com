@@ -11,7 +11,7 @@ tags:
   - Internet
   - Software
 aliases:
-  - /2011/12/technological-difficulties-for-small-business-%e2%80%93-software/
+  - /2011/12/technological-difficulties-for-small-business-software/
 ---
 
 Software can be a very important aspect of getting things done at work or home but software also plays a large role in starting your own small business. Needed software will vary depending on what type of business you are starting but I am going to cover some of the paid and free options for your small business. The basic software you will need is a word processing application, email client and internet browser. All of these software categories have both free and paid options and there are advantages and disadvantages of each.

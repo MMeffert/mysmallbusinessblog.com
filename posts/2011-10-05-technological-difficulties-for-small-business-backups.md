@@ -12,7 +12,7 @@ tags:
   - Storage
   - ZFS
 aliases:
-  - /2011/10/technological-difficulties-for-small-business-%e2%80%93-backups/
+  - /2011/10/technological-difficulties-for-small-business-backups/
 ---
 
 Backups tend to be difficult for everyone from home computer users to enterprise businesses. The reason it can be the most difficult for small businesses is because they can have a larger amount of data then a home computer user and they don't have the funds that larger companies have in order to implement backup solutions. Luckily there are solutions that are cost effective and will also be able to handle the amount of data that a small business will have.
