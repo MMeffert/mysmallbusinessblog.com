@@ -2,7 +2,7 @@
 title: "pfSense Installation - Watchguard X750e"
 date: 2013-08-12T17:17:28+00:00
 slug: pfsense-installation-watchguard-x750e
-description: "Previously I had been using a Dell Poweredge R200 to run pfSense for my home network which worked great but it was kind of overkill for what pfSense really needed to run optimally so I ended..."
+description: "Step-by-step guide to installing pfSense on a Watchguard X750e firewall appliance, including BIOS flashing and Compact Flash tips."
 categories:
   - Home Lab
 tags:

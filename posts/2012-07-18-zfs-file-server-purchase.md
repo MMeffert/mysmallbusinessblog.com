@@ -2,7 +2,7 @@
 title: "ZFS File Server - Purchase"
 date: 2012-07-18T02:11:00+00:00
 slug: zfs-file-server-purchase
-description: "Recently I purchased a Dell Poweredge 2950 server as a file server for my business. I compared prices from many sites online but ended up buying it from a local person on Craigslist. The company ..."
+description: "Purchasing a Dell Poweredge 2950 from Craigslist to use as a FreeNAS and ZFS file server, including specs and the decision-making process."
 categories:
   - Home Lab
 tags:

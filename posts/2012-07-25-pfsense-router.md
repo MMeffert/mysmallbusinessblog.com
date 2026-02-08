@@ -2,7 +2,7 @@
 title: "pfSense - Router"
 date: 2012-07-25T19:12:44+00:00
 slug: pfsense-router
-description: "pfSense is a great alternative to store bought, home routers. The first reason being that home routers have a very weak processor in them and a very small amount of memory. You are also locked do..."
+description: "Why pfSense is a powerful alternative to consumer routers, offering more RAM, CPU, and features like DNS, DHCP, VPN, and failover."
 categories:
   - Home Lab
 tags:

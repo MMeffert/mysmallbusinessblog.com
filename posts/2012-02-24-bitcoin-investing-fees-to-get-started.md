@@ -2,7 +2,7 @@
 title: "Bitcoin Investing - Fees To Get Started"
 date: 2012-02-24T05:15:58+00:00
 slug: bitcoin-investing-fees-to-get-started
-description: "Recently I started investing in Bitcoin and I came across unexpected fees that I wasn't counting on when I started. I will cover these fees so that others will be aware of what costs are inv..."
+description: "A breakdown of the fees involved in Bitcoin investing, from Paxum deposits and MtGox exchange fees to trading commissions and withdrawal costs."
 categories:
   - Bitcoin
 tags:

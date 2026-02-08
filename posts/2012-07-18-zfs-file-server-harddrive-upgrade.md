@@ -2,7 +2,7 @@
 title: "ZFS File Server - Harddrive Upgrade"
 date: 2012-07-18T02:22:58+00:00
 slug: zfs-file-server-harddrive-upgrade
-description: "The server was purchased with 5 x 1.5TB drives. 4 of which are Western Digital Green drives and the other was a Seagate 7200rpm drive. In order to make sure the Seagate drive won't cause a ..."
+description: "Replacing a mismatched Seagate drive and adding a sixth Western Digital Green to fill all hot-swap bays in the Dell Poweredge 2950."
 categories:
   - Home Lab
 tags:

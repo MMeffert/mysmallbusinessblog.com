@@ -2,7 +2,7 @@
 title: "Getting Started With pfSense Aliases"
 date: 2014-05-06T00:21:03+00:00
 slug: getting-started-with-pfsense-aliases
-description: "pfSense has been a great addition to my home network but I haven't messed with aliases until recently. Aliases can be great when you have groups of IP addresses or ports that you are going t..."
+description: "A beginner's guide to pfSense aliases, showing how to group IP addresses and ports for cleaner firewall rules."
 categories:
   - Home Lab
 tags: []

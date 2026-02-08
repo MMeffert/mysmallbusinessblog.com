@@ -2,7 +2,7 @@
 title: "2008 iMac Upgrade to SSD"
 date: 2014-10-09T19:19:22+00:00
 slug: 2008-imac-upgrade-to-ssd
-description: "Recently my 2008 iMac has been seeming a bit sluggish and the hard drive was showing very slow read and write speeds. The current hard drive was a 2010 1TB Western Digital Black. This drive was s..."
+description: "Upgrading a sluggish 2008 iMac from a Western Digital HDD to a SanDisk Extreme II SSD, with before and after benchmarks."
 categories:
   - Home Lab
   - Reviews

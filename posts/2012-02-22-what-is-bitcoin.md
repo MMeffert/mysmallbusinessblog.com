@@ -2,7 +2,7 @@
 title: "What is Bitcoin?"
 date: 2012-02-22T02:37:37+00:00
 slug: what-is-bitcoin
-description: "According to Wikipedia, \"Bitcoin is a decentralized electronic cash system using peer-to-peer networking, digital signatures and cryptographic proof to enable irreversible payments between pa..."
+description: "An introduction to Bitcoin as a decentralized, anonymous currency system that can be bought, traded, and sold on markets without government control."
 categories:
   - Bitcoin
 tags:

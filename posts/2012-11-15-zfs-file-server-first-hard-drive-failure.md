@@ -2,7 +2,7 @@
 title: "ZFS File Server - First Hard Drive Failure"
 date: 2012-11-15T16:22:25+00:00
 slug: zfs-file-server-first-hard-drive-failure
-description: "I experienced my first hard drive failure in my ZFS file server. I noticed the drive had failed when the light on the front of my Dell Poweredge 2950 turned orange. I immediately logged into the ..."
+description: "Handling my first ZFS hard drive failure on a Dell PowerEdge 2950 running FreeNAS, including the RMA process and array rebuild."
 categories:
   - Home Lab
 tags:

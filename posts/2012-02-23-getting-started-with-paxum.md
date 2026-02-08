@@ -2,7 +2,7 @@
 title: "Getting Started With Paxum"
 date: 2012-02-23T20:45:10+00:00
 slug: getting-started-with-paxum
-description: "Paxum is one of the major ways to get funds into the bitcoin market. Once you have money in Paxum then you can buy Bitcoin. Once you sign up for Paxum there are a few hoops you will have to jump..."
+description: "A guide to setting up Paxum to fund Bitcoin purchases, including tips for getting your proof of address and identification documents accepted."
 categories:
   - Bitcoin
 tags:

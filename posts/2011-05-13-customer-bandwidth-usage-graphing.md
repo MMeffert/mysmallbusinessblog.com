@@ -7,7 +7,7 @@ categories:
   - Entrepreneurial
   - Programming
 tags:
-  - Bandwdith Graphing
+  - Bandwidth Graphing
   - Customers
   - Graphing
   - PHP

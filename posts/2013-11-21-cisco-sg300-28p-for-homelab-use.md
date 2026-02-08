@@ -2,7 +2,7 @@
 title: "Cisco SG300-28P for Homelab Use"
 date: 2013-11-21T16:13:21+00:00
 slug: cisco-sg300-28p-for-homelab-use
-description: "In June I purchased a Cisco SG300-28P switch to replace two 8 port unmanaged switches that I had been using in my home network. These unmanaged switches worked fine but they didn't offer any..."
+description: "Review of the Cisco SG300-28P managed switch for homelab use, covering PoE, VLANs, inter-VLAN routing, and SNMP monitoring."
 categories:
   - Home Lab
 tags:

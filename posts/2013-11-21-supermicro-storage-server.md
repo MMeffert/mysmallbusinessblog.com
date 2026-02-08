@@ -2,7 +2,7 @@
 title: "Supermicro Storage Server"
 date: 2013-11-21T15:20:35+00:00
 slug: supermicro-storage-server
-description: "After outgrowing the storage space on the Poweredge 2950 I ended up purchasing a Supermicro 24 bay server from eBay. The server came with 8GB of memory, one AMD Opteron quad core 1.8GHz processor ..."
+description: "Detailed look at a Supermicro 24-bay storage server purchased from eBay, including specs, expandability, and IPMI setup."
 categories:
   - Home Lab
 tags:

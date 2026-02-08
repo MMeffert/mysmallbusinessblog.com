@@ -2,7 +2,7 @@
 title: "pfSense - Installation"
 date: 2012-07-25T03:59:46+00:00
 slug: pfsense-installation
-description: "The pfSense installation can be completed in under 15 minutes and is very easy. I decided to use a Dell Poweredge R200 that I had with 1GB of Ram and an 80GB hard drive. This server had two built..."
+description: "Step-by-step pfSense installation on a Dell Poweredge R200, including NIC auto-detection tips and an overview of firewall, VPN, and caching features."
 categories:
   - Home Lab
 tags:

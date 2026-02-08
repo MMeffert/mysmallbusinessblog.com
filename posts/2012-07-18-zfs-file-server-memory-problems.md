@@ -2,7 +2,7 @@
 title: "ZFS File Server - Memory Problems"
 date: 2012-07-18T02:15:48+00:00
 slug: zfs-file-server-memory-problems
-description: "After booting the server an error was displayed that two of the memory modules had failed the memory test and I could press F1 to continue. I continued to install Freenas and didn't think mu..."
+description: "Diagnosing and fixing memory errors on a Dell Poweredge 2950 where unseated RAM modules caused FreeNAS to report only 2GB of the installed 4GB."
 categories:
   - Home Lab
 tags:

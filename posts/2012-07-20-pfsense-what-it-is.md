@@ -2,7 +2,7 @@
 title: "pfSense - What it is?"
 date: 2012-07-20T02:28:38+00:00
 slug: pfsense-what-it-is
-description: "What is pfSense? \"pfSense is a free, open source customized distribution of FreeBSD tailored for use as a firewall and router. In addition to being a powerful, flexible firewalling and routin..."
+description: "An introduction to pfSense, a free and open-source FreeBSD distribution used as a firewall and router for networks of all sizes."
 categories:
   - Home Lab
 tags:

@@ -2,7 +2,7 @@
 title: "Bitcoin Gambling - MineField"
 date: 2012-02-24T14:55:08+00:00
 slug: bitcoin-gambling-minefield
-description: "MineField is a strategy/luck game that you can play with Bitcoin. You start by visiting the site and your login will be created and stored in the URL. This means that if you want to return to you..."
+description: "An overview of MineField, a Bitcoin-based strategy and luck game where you choose your bet amount and difficulty level for a chance to multiply your coins."
 categories:
   - Bitcoin
 tags:

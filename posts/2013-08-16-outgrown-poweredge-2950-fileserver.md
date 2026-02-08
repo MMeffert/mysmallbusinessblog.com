@@ -2,7 +2,7 @@
 title: "Outgrown Poweredge 2950 Fileserver"
 date: 2013-08-16T13:00:22+00:00
 slug: outgrown-poweredge-2950-fileserver
-description: "My home lab has had a Dell Poweredge 2950 for quite a while now and it has been used for storing files and backups but recently it has been nearing capacity both in terms of storage space and perfo..."
+description: "Outgrowing a Dell PowerEdge 2950 file server and finding a cost-effective Supermicro 24-bay replacement on eBay."
 categories:
   - Home Lab
 tags:
