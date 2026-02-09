@@ -15,7 +15,7 @@ aliases:
   - /2013/08/pfsense-installation-watchguard-x750e/
 ---
 
-![235747F0-4EB1-4064-875E-F13769D4AB51](/images/235747F0-4EB1-4064-875E-F13769D4AB51.jpg)
+![Watchguard X750e firewall appliance](/images/235747F0-4EB1-4064-875E-F13769D4AB51.jpg)
 
 Previously I had been using a Dell Poweredge R200 to run [pfSense](http://www.pfsense.org/) for my home network which worked great but it was kind of overkill for what pfSense really needed to run optimally so I ended up selling the R200 and moving pfSense to a virtual machine. The virtual machine worked ok but it was not great because when the Esxi host would go down or need to be restarted, I would have issues getting all the VMs to come back up because the router was gone so they couldn't check with pfSense to get an IP address. In order to get away from running pfSense in a virtual environment, I decided to try installing pfSense on a [Watchguard X750e](http://www.watchguard.com/products/core-e/overview.asp) firewall appliance. I had seen some tutorials on the pfSense documentation site about how to do this and it looked interesting to me because of how many network ports were available on the X750e.
 

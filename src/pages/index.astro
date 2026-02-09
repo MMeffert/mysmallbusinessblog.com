@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('posts');
+const sortedPosts = posts.sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+);
+
+const postsByYear = sortedPosts.reduce<Record<number, typeof sortedPosts>>((acc, post) => {
+  const year = post.data.date.getFullYear();
+  if (!acc[year]) acc[year] = [];
+  acc[year].push(post);
+  return acc;
+}, {});
+
+const years = Object.keys(postsByYear)
+  .map(Number)
+  .sort((a, b) => b - a);
+---
+
+<BaseLayout
+  title="My Small Business Blog"
+  description="Archive of posts about homelab, small business tech, Bitcoin, and web hosting from 2011-2014."
+>
+  <div class="archive-notice">
+    This is an archive of posts originally published at mysmallbusinessblog.com
+    between 2011 and 2014. Topics include homelab infrastructure, pfSense, ZFS,
+    Bitcoin, and small business technology.
+  </div>
+
+  {years.map((year) => (
+    <section class="year-group">
+      <h2 class="year-group__heading">{year}</h2>
+      {postsByYear[year].map((post) => (
+        <PostCard
+          title={post.data.title}
+          slug={post.data.slug}
+          date={post.data.date}
+          description={post.data.description}
+          categories={post.data.categories}
+        />
+      ))}
+    </section>
+  ))}
+</BaseLayout>

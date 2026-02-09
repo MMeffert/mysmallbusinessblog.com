@@ -1,0 +1,26 @@
+{
+  "name": "mysmallbusinessblog-infrastructure",
+  "version": "1.0.0",
+  "description": "CDK infrastructure for mysmallbusinessblog.com",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "cdk": "cdk",
+    "synth": "cdk synth",
+    "diff": "cdk diff",
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy",
+    "bootstrap": "cdk bootstrap"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.237.0",
+    "constructs": "^10.4.5",
+    "source-map-support": "^0.5.21"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.0",
+    "typescript": "^5.0.0",
+    "aws-cdk": "^2.1105.0",
+    "ts-node": "^10.9.0"
+  }
+}

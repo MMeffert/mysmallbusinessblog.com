@@ -15,7 +15,7 @@ aliases:
   - /2013/11/supermicro-storage-server/
 ---
 
-![4457341_P1010759](/images/4457341_P1010759.jpg)
+![Supermicro 24-bay storage server](/images/4457341_P1010759.jpg)
 
 After outgrowing the storage space on the Poweredge 2950 I ended up purchasing a Supermicro 24 bay server from eBay. The server came with 8GB of memory, one AMD Opteron quad core 1.8GHz processor and 24 hot swap bays. I had previously been looking at the Norco 24 bay cases but this ended up being a lot more economical option because I could get the entire server with everything included for about the same price as just the Norco case. Once I received the server I started taking inventory of what it all contained, what I still needed and what upgrades to it would be possible in the future.
 

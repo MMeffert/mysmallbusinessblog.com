@@ -1,0 +1,47 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import TagList from '../components/TagList.astro';
+import CategoryList from '../components/CategoryList.astro';
+import PrevNext from '../components/PrevNext.astro';
+import '../styles/prose.css';
+
+interface PostLink {
+  title: string;
+  slug: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  date: Date;
+  categories: string[];
+  tags: string[];
+  prev?: PostLink;
+  next?: PostLink;
+}
+
+const { title, description, date, categories, tags, prev, next } = Astro.props;
+---
+
+<BaseLayout title={title} description={description} type="article" publishedDate={date}>
+  <article data-pagefind-body>
+    <header>
+      <h1 class="page-heading">{title}</h1>
+      <div class="post-card__meta">
+        <time datetime={date.toISOString()} data-pagefind-meta="date">
+          {date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+        </time>
+        <CategoryList categories={categories} />
+      </div>
+      {tags.length > 0 && (
+        <div style="margin-top: 0.5rem;">
+          <TagList tags={tags} />
+        </div>
+      )}
+    </header>
+    <div class="prose" style="margin-top: 2rem;">
+      <slot />
+    </div>
+  </article>
+  <PrevNext prev={prev} next={next} />
+</BaseLayout>

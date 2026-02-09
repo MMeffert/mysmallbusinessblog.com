@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  function slugify(str: string): string {
+    return str.toLowerCase().replace(/\s+/g, '-');
+  }
+
+  const posts = await getCollection('posts');
+
+  const categoryMap = new Map<string, typeof posts>();
+  posts.forEach((post) => {
+    post.data.categories.forEach((cat) => {
+      if (!categoryMap.has(cat)) categoryMap.set(cat, []);
+      categoryMap.get(cat)!.push(post);
+    });
+  });
+
+  return [...categoryMap.entries()].map(([name, catPosts]) => ({
+    params: { category: slugify(name) },
+    props: {
+      name,
+      posts: catPosts.sort(
+        (a, b) => b.data.date.getTime() - a.data.date.getTime()
+      ),
+    },
+  }));
+}
+
+const { name, posts } = Astro.props;
+---
+
+<BaseLayout
+  title={name}
+  description={`Posts in the ${name} category.`}
+>
+  <h1 class="page-heading">{name}</h1>
+  <p style="margin-bottom: 1.5rem; color: var(--color-text-muted); font-size: 0.875rem;">
+    {posts.length} {posts.length === 1 ? 'post' : 'posts'}
+  </p>
+  {posts.map((post) => (
+    <PostCard
+      title={post.data.title}
+      slug={post.data.slug}
+      date={post.data.date}
+      description={post.data.description}
+      categories={post.data.categories}
+    />
+  ))}
+</BaseLayout>

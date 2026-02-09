@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Astro build output
+dist/
+.astro/
+
+# Environment
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# CDK
+infrastructure/node_modules/
+infrastructure/cdk.out/
+infrastructure/*.js
+infrastructure/*.d.ts
+!infrastructure/cdk.json

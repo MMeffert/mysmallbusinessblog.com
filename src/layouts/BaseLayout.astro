@@ -1,0 +1,42 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import SEOHead from '../components/SEOHead.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  type?: 'website' | 'article';
+  publishedDate?: Date;
+}
+
+const { title, description, type, publishedDate } = Astro.props;
+const fullTitle = title === 'My Small Business Blog'
+  ? title
+  : `${title} | My Small Business Blog`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{fullTitle}</title>
+    <SEOHead
+      title={fullTitle}
+      description={description}
+      type={type}
+      publishedDate={publishedDate}
+    />
+  </head>
+  <body>
+    <a class="skip-nav" href="#main-content">Skip to content</a>
+    <Header />
+    <main id="main-content">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

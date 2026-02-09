@@ -1,0 +1,21 @@
+---
+interface Props {
+  categories: string[];
+}
+
+const { categories } = Astro.props;
+
+function slugify(str: string): string {
+  return str.toLowerCase().replace(/\s+/g, '-');
+}
+---
+
+{categories.length > 0 && (
+  <ul class="category-list">
+    {categories.map((cat) => (
+      <li>
+        <a class="category-link" href={`/category/${slugify(cat)}/`}>{cat}</a>
+      </li>
+    ))}
+  </ul>
+)}

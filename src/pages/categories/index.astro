@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('posts');
+
+function slugify(str: string): string {
+  return str.toLowerCase().replace(/\s+/g, '-');
+}
+
+const categoryMap = new Map<string, number>();
+posts.forEach((post) => {
+  post.data.categories.forEach((cat) => {
+    categoryMap.set(cat, (categoryMap.get(cat) || 0) + 1);
+  });
+});
+
+const categories = [...categoryMap.entries()].sort((a, b) =>
+  a[0].localeCompare(b[0])
+);
+---
+
+<BaseLayout
+  title="Categories"
+  description="Browse all blog post categories."
+>
+  <h1 class="page-heading">Categories</h1>
+  <ul class="taxonomy-grid">
+    {categories.map(([name, count]) => (
+      <li class="taxonomy-card">
+        <a href={`/category/${slugify(name)}/`}>{name}</a>
+        <span class="taxonomy-card__count">
+          {count} {count === 1 ? 'post' : 'posts'}
+        </span>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>
