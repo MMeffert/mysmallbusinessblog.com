@@ -65,8 +65,6 @@ npm run diff         # Preview changes
 - Topics: homelab (pfSense, ZFS, FreeNAS, Cisco, Supermicro), Bitcoin, web hosting reviews, small business tech
 - Categories: Bitcoin, Entrepreneurial, Home Lab, Programming, Reviews, Web Hosting
 - Content collections with Zod schema validation in `src/content.config.ts`
-- All 28 old WordPress URLs redirect to `/blog/{slug}/` via `astro.config.mjs`
-- `/feed/` redirects to `/rss.xml`
 - Pagefind search indexes only `/blog/**` pages
 - CloudFront Function handles www→non-www, query stripping, and `/index.html` rewriting
 
