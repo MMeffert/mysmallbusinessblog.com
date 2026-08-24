@@ -11,7 +11,7 @@
     "postbuild": "pagefind --site dist --glob \"blog/**\""
   },
   "dependencies": {
-    "astro": "^7.2.2",
+    "astro": "^7.2.4",
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.3"
   },
