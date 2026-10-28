@@ -11,7 +11,7 @@ aliases:
   - /2012/02/bitcoin-investing-fees-to-get-started/
 ---
 
-Recently I started investing in Bitcoin and I came across unexpected fees that I wasn't counting on when I started. I will cover these fees so that others will be aware of what costs are involved when you want to start investing in Bitcoin. The bitcoin exchange that I decided to use was [MtGox](http://mtgox.com/) because of the popularity.
+Recently I started investing in Bitcoin and I came across unexpected fees that I wasn't counting on when I started. I will cover these fees so that others will be aware of what costs are involved when you want to start investing in Bitcoin. The bitcoin exchange that I decided to use was [MtGox](https://web.archive.org/web/20120112024603/https://mtgox.com/) because of the popularity.
 
 The first fee that I came across was getting money into [Paxum](https://www.paxum.com/). Paxum is one of the few companies that you can use to get US Dollars into Bitcoin. With Paxum you have a few different options to get money to them such as via credit card transaction or a wire transfer. I decided to go with a credit card transaction because the fees were lower than the alternatives. Based on the amount you want to charge to your credit card they will charge a flat fee but also a small percentage.
 

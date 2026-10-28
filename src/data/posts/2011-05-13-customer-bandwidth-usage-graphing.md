@@ -16,7 +16,7 @@ aliases:
   - /2011/05/customer-bandwidth-usage-graphing/
 ---
 
-Having the ability to visually see bandwidth usage statistics can help better plan for future growth but also see what current usages actually are. I will start by showing the code that I have created for this purpose. The code has comments throughout to give some detail but I will go into further explanation in future parts to this article. This code uses a php class file called [Max's Chart](http://www.phpf1.com/product/php-chart-script.html) which can be downloaded.
+Having the ability to visually see bandwidth usage statistics can help better plan for future growth but also see what current usages actually are. I will start by showing the code that I have created for this purpose. The code has comments throughout to give some detail but I will go into further explanation in future parts to this article. This code uses a php class file called [Max's Chart](https://web.archive.org/web/20110519151256/http://phpf1.com/product/php-chart-script.html) which can be downloaded.
 
 The below script can also be downloaded.
 

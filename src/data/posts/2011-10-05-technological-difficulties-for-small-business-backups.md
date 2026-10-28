@@ -17,7 +17,7 @@ aliases:
 
 Backups tend to be difficult for everyone from home computer users to enterprise businesses. The reason it can be the most difficult for small businesses is because they can have a larger amount of data then a home computer user and they don't have the funds that larger companies have in order to implement backup solutions. Luckily there are solutions that are cost effective and will also be able to handle the amount of data that a small business will have.
 
-The solution that I have found to work best is called [FreeNAS](http://www.freenas.org/). [FreeNAS](http://www.freenas.org/) is based on FreeBSD and works very well for cheap storage and backup solutions. Some of the features of [FreeNAS](http://www.freenas.org/) are:
+The solution that I have found to work best is called [FreeNAS](https://www.freenas.org/). [FreeNAS](https://www.freenas.org/) is based on FreeBSD and works very well for cheap storage and backup solutions. Some of the features of [FreeNAS](https://www.freenas.org/) are:
 
 **Version 7**
 
@@ -39,9 +39,9 @@ The solution that I have found to work best is called [FreeNAS](http://www.freen
 - ZFS v15
 - WebGUI
 
-[FreeNAS](http://www.freenas.org/) can be installed on a low end server which helps to save costs for small businesses that do not have a lot of money to invest in backups but it also has the flexibility to run on very high power servers for larger businesses or as your small business grows and needs to be able to access larger amounts of data at a higher speed.
+[FreeNAS](https://www.freenas.org/) can be installed on a low end server which helps to save costs for small businesses that do not have a lot of money to invest in backups but it also has the flexibility to run on very high power servers for larger businesses or as your small business grows and needs to be able to access larger amounts of data at a higher speed.
 
-One of the best parts about [FreeNAS](http://www.freenas.org/) is that it offers the [ZFS file system](http://en.wikipedia.org/wiki/ZFS). ZFS was created by Sun Microsystems and in many ways is a new and improved form of [RAID](http://en.wikipedia.org/wiki/RAID). As for the features of ZFS, I think Wikipedia puts it best.
+One of the best parts about [FreeNAS](https://www.freenas.org/) is that it offers the [ZFS file system](https://en.wikipedia.org/wiki/ZFS). ZFS was created by Sun Microsystems and in many ways is a new and improved form of [RAID](https://en.wikipedia.org/wiki/RAID). As for the features of ZFS, I think Wikipedia puts it best.
 
 > "The features of ZFS include data integrity verification against data corruption modes (like bit rot), support for high storage capacities, integration of the concepts of filesystem and volume management, snapshots and copy-on-write clones, continuous integrity checking and automatic repair, RAID-Z and native NFSv4ACLs."
 
