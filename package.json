@@ -16,6 +16,6 @@
     "@astrojs/sitemap": "^3.7.4"
   },
   "devDependencies": {
-    "pagefind": "^1.5.2"
+    "pagefind": "^1.6.0"
   }
 }
